@@ -4,7 +4,7 @@ A modern developer portfolio built with React and Vite to showcase projects, ski
 
 ## 🌐 Live Demo
 
-Coming Soon
+🌐 Live: https://mdanas-portfolio.vercel.app/
 
 ---
 
