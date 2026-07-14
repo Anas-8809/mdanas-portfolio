@@ -1,55 +1,153 @@
-# Md Anas — Portfolio
+# 💻 Md Anas Portfolio
 
-A React + Vite + Tailwind portfolio, styled as a code editor: sections are "files" (`about.tsx`,
-`projects.tsx`, `skills.json`, `achievements.log`, `contact.md`) with a tab bar that highlights the
-section in view, syntax-highlighted content blocks, and a mailto-based contact form (no backend needed).
+A modern developer portfolio built with React and Vite to showcase projects, skills, achievements, certifications, and professional experience.
 
-## Run locally
+## 🌐 Live Demo
+
+Coming Soon
+
+---
+
+## ✨ Features
+
+- Developer-inspired UI
+- Responsive design
+- Project showcase with source code and live demo links
+- Skills section
+- Achievements section
+- Certifications section
+- Positions of responsibility
+- Resume download
+- Contact section
+- GitHub, LinkedIn, and LeetCode integration
+
+---
+
+## 🚀 Featured Projects
+
+### Hostel Hungry
+Real-time food delivery platform with customer, restaurant, and delivery partner modules.
+
+### BookShow
+Movie ticket booking platform with seat management and payment integration.
+
+### Notes App
+Full-stack notes management application with authentication and CRUD functionality.
+
+### Underwater Image Enhancement
+Deep learning-based image enhancement system for underwater image restoration.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+### Libraries
+- React Icons
+- Framer Motion
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+portfolio/
+│
+├── public/
+│   ├── anas.jpeg
+│   └── resume.pdf
+│
+├── src/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── Contact.jsx
+│   │   └── TabBar.jsx
+│   │
+│   ├── data/
+│   │   └── resumeData.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Anas-8809/mdanas-portfolio.git
+```
+
+Navigate to the project
+
+```bash
+cd mdanas-portfolio
+cd portfolio
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Start the development server
+
+```bash
 npm run dev
 ```
 
-Then open the printed local URL (usually http://localhost:5173).
+---
 
-## Build for production
+## 🔮 Future Enhancements
 
-```bash
-npm run build
-npm run preview   # optional: preview the production build locally
-```
+- Dark/Light Theme Toggle
+- GitHub Activity Integration
+- LeetCode Profile Statistics
+- Blog Section
+- Project Screenshots Gallery
+- Custom Domain Integration
 
-The static output lands in `dist/`.
+---
 
-## Deploy
+## 👨‍💻 About Me
 
-This is a static Vite app, so it deploys the same way as your other projects:
+I'm passionate about Full Stack Development, Data Structures & Algorithms, Backend Engineering, and Artificial Intelligence/Machine Learning. I enjoy building scalable applications and solving real-world problems through software.
 
-- **Vercel**: import the repo, framework preset "Vite", build command `npm run build`, output
-  directory `dist`.
-- **Render**: static site, build command `npm run build`, publish directory `dist`.
-- **GitHub Pages**: run `npm run build`, then push the `dist/` folder to a `gh-pages` branch
-  (or use the `gh-pages` npm package).
+---
 
-## Editing your content
+## 🔗 Connect With Me
 
-All resume content lives in one place: `src/data/resumeData.js`. Update your projects, skills,
-achievements, certifications, and contact details there — the components render straight from it,
-so you won't need to touch JSX to keep this up to date.
+### GitHub
+https://github.com/Anas-8809
 
-## Structure
+### LinkedIn
+https://linkedin.com/in/mdanas8809
 
-```
-src/
-  data/resumeData.js     ← all your content
-  components/
-    TabBar.jsx            ← sticky nav, scroll-spy highlighting
-    Hero.jsx               ← about section
-    Projects.jsx
-    Skills.jsx
-    Achievements.jsx        ← achievements + certifications + positions
-    Contact.jsx
-  App.jsx
-  index.css
-```
+### LeetCode
+https://leetcode.com/u/Md-Anas
+
+### Email
+mdanas8171@gmail.com
+
+---
+
+⭐ If you like this project, consider giving it a star.
